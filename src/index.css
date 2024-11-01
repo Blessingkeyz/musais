@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: kodchasan;
+  src: url("./assets/fonts/Kodchasan-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: kodchasan;
+  src: url("./assets/fonts/Kodchasan-Regular.ttf");
+  font-weight: 400;
+}
