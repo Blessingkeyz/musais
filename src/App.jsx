@@ -11,8 +11,7 @@ import Pricing from "./components/Pricing";
 
 function App() {
   return (
-    // <div>
-    <div className="bg-gradient-to-b from-teal-900 to-teal-800">
+    <div>
       <Header />
       <Hero />
       <Client />

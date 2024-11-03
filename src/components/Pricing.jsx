@@ -7,7 +7,7 @@ const Pricing = () => {
     setSelect(i);
   };
   return (
-    <div className="bg-gradient-to-b from-teal-900 to-black flex flex-col items-center justify-center  text-center">
+    <div className=" ui flex flex-col items-center justify-center  text-center">
       <div className="relative mt-20 rounded-lg top-5 left-[135px] md:left-[230px] rotate-[25deg] bg-[#d41f1f] px-4 py-1 text-white text-lg font-bold  ">
         25% Off
       </div>
@@ -32,7 +32,10 @@ const Pricing = () => {
       <h2 className="text-[#ffecd2] text-6xl font-Kodchasan font-semibold mb-5">
         Pick the Right Plan for You
       </h2>
-      <hr className="border-t border-[#ffecd2] w-1/3 mx-auto mb-12" />
+      <img
+        src="src\assets\images\line.png"
+        className="mx-auto w-[885px] mb-12"
+      />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         {/* <!-- First Plan --> */}

@@ -3,10 +3,14 @@ const Hero = () => {
     <div className="py-10  text-center">
       <h1
         style={{ fontSize: "77.33px", color: "#ffecd2" }}
-        className=" font-Kodchasan font-semibold mb-6"
+        className=" font-Kodchasan font-semibold -mb-3"
       >
         Design. Develop. Deliver. <br /> The Musais Way
       </h1>
+      <img
+        src="src\assets\images\line.png"
+        className="mx-auto mb-8 w-[300px] h-5 "
+      />
       <p className="text-2xl text-white mb-6">
         We Build Websites That Make Your{" "}
         <span className="bg-white bg-opacity-10 font-bold ">
@@ -18,7 +22,7 @@ const Hero = () => {
         <i className="far fa-envelope fa-lg"></i>
       </button>
 
-      <p className="text-white italic text-xl font-extralight mb-6">
+      <p className="text-white italic text-xl font-extralight mb-10">
         Best websites ever!
       </p>
       <div className=" md:flex hidden   justify-center ml-[1.5%] 2xl:mx-[15%] items-center">

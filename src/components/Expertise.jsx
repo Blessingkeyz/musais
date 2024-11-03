@@ -1,11 +1,14 @@
 const Expertise = () => {
   return (
-    <div className="text-center bg-gradient-to-b from-teal-900 to-black ">
+    <div className="text-center ">
       <h2 className="text-[#ffecd2] text-6xl font-Kodchasan  mb-5">
         Our Expertise
       </h2>
-      <hr className="border-t border-[#ffecd2] w-1/3 mx-auto mb-12" />
-      <p className="text-2xl mx-2 text-white mb-12">
+      <img
+        src="src\assets\images\line.png"
+        className="mx-auto mb-5 w-[400px]"
+      />
+      <p className="text-2xl mx-2 text-white mb-14">
         Our blend of creativity and technical finesse ensures bespoke solutions
         <br />
         that elevate <span className="font-bold">brands</span> and captivate
