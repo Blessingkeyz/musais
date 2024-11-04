@@ -4,10 +4,7 @@ const Testimonials = () => {
       <h2 className=" text-[#ffecd2] text-6xl font-Kodchasan font-semibold mb-5">
         Testimonials
       </h2>
-      <img
-        src="src\assets\images\line.png"
-        className="mx-auto mb-5 w-[400px]"
-      />
+      <img src="\images\line.png" className="mx-auto mb-5 w-[400px]" />
       <p className="text-2xl mx-10 text-white mb-10">
         Let{"'"}s see what our clients say about us!
       </p>

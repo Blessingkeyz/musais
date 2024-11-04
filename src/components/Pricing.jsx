@@ -33,13 +33,13 @@ const Pricing = () => {
         Pick the Right Plan for You
       </h2>
       <img
-        src="src\assets\images\line.png"
-        className="mx-auto w-[885px] mb-12"
+        src="\images\line.png"
+        className="mx-auto w-[305px] md:w-[605px] lg:w-[885px] mb-12"
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
         {/* <!-- First Plan --> */}
-        <div className="relative bg-[#021314] rounded-3xl mt-5 border-[1px] py-20  text-white hover:shadow-xl">
+        <div className="relative bg-[#021314] rounded-3xl mt-5 border-[1px] py-20 mx-12 md:mx-0 text-white hover:shadow-xl">
           <div className=" grid justify-center">
             <h3 className="text-2xl  mb-4">XXXXX</h3>
             <p className="text-5xl mb-4 font-semibold">XXXXX</p>
@@ -151,7 +151,7 @@ const Pricing = () => {
         </div>
 
         {/* <!-- Second Plan --> */}
-        <div className="relative  bg-gradient-to-b from-teal-900 to-black rounded-3xl border-[1px] py-20 px-20 lg:px-10 xl:px-20 text-white -mb-10 hover:shadow-xl">
+        <div className="relative  bg-gradient-to-b from-teal-900 to-black rounded-3xl border-[1px] py-20 px-20 lg:px-10 xl:px-20 mx-12 md:mx-0 text-white -mb-10 hover:shadow-xl">
           <div className=" grid justify-center">
             <h3 className="text-2xl  mb-4">XXXXX</h3>
             <p className="text-5xl mb-4 font-semibold">
@@ -266,7 +266,7 @@ const Pricing = () => {
         </div>
 
         {/* <!-- Third Plan --> */}
-        <div className=" bg-[#021314] rounded-3xl mt-5 border-[1px] py-20  text-white hover:shadow-xl">
+        <div className=" bg-[#021314] rounded-3xl mt-5 border-[1px] py-20 mx-12 md:mx-0  text-white hover:shadow-xl">
           <div className=" grid justify-center">
             <h3 className="text-2xl  mb-4">XXXXX</h3>
             <p className="text-5xl mb-4 font-semibold">XXXXX</p>

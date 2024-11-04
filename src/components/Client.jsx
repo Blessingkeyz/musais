@@ -4,15 +4,12 @@ const Client = () => {
       <h2 className="text-center text-[#ffecd2] text-6xl font-Kodchasan font-semibold mb-5">
         Why Clients Choose Us?
       </h2>
-      <img
-        src="src\assets\images\line.png"
-        className="mx-auto mb-12 w-[550px]"
-      />
+      <img src="\images\line.png" className="mx-auto mb-12 w-[550px]" />
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-[#ffecd2]">
         <div className="space-y-3">
           <img
-            src="src\assets\images\cl1.png"
+            src="\images\cl1.png"
             className="mx-auto rounded-xl p-4 bg-white"
           />
           <h3 className="text-2xl font-semibold">Responsive Design</h3>
@@ -24,7 +21,7 @@ const Client = () => {
 
         <div className="space-y-3">
           <img
-            src="src\assets\images\cl2.png"
+            src="\images\cl2.png"
             className="mx-auto rounded-xl p-4 bg-white"
           />
           <h3 className="text-2xl font-semibold">Custom Development</h3>
@@ -36,7 +33,7 @@ const Client = () => {
 
         <div className="space-y-3">
           <img
-            src="src\assets\images\cl3.png"
+            src="\images\cl3.png"
             className="mx-auto rounded-xl p-4 bg-white"
           />
           <h3 className="text-2xl font-semibold">Best Blogs</h3>

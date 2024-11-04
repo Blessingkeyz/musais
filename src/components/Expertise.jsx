@@ -4,10 +4,7 @@ const Expertise = () => {
       <h2 className="text-[#ffecd2] text-6xl font-Kodchasan  mb-5">
         Our Expertise
       </h2>
-      <img
-        src="src\assets\images\line.png"
-        className="mx-auto mb-5 w-[400px]"
-      />
+      <img src="\images\line.png" className="mx-auto mb-5 w-[400px]" />
       <p className="text-2xl mx-2 text-white mb-14">
         Our blend of creativity and technical finesse ensures bespoke solutions
         <br />
